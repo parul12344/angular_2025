@@ -1,5 +1,8 @@
 {{title}}
 <ul>
+  <!-- @for(list of userList();track $index){
+    <li>{{list.id}} :  {{list.name}}</li>
+  } -->
   @for(list of userList();track $index){
     <li>{{list.id}} :  {{list.name}}</li>
   }

@@ -1,0 +1,15 @@
+<h2>One way Data Binding</h2>
+<p><b>String Interpolation</b></p>
+{{name}}
+<p><b>Property Binding</b></p>
+<div [title]="title">Property</div>
+<p><b>Event Binding</b></p>
+<a (click)="onClick()">Event Occur</a>
+
+
+<h2>Two way Data Binding</h2>
+<input type="text"[(ngModel)]="courseName">
+<button (click)="changeCourseName()">Change Course</button>
+
+<h2>Signal</h2>
+<p>{{profession()}}</p>
